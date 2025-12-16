@@ -23,6 +23,9 @@ streamlit run app.py
 This is a prototype focusing on analytics flow and visualization.
 
 ## Architecture
+
+![System Architecture](architecture.drawio.png)
+
 See architecture.drawio.png for system design.
 
 ## ChatGPT Usage Transparency
