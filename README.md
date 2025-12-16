@@ -1,33 +1,37 @@
-## Prototype for Real Time Analysis of Market Pairs
+# Quant Analytics Prototype
 
-This is the initial step of our attempt at analysing Market Pairs in Realtime.
+This project is a simple prototype for real-time market pair analytics.
 
-Affinity of Analysis
-- Viewing of the pricing of two assets
-- Calculation of Z-Scores & Spread
-- Controls for rolling time frames
-- An interactive dashboard through Streamlit
+## Features
+- Price visualization for two assets
+- Spread and Z-score computation
+- Rolling window controls
+- Interactive Streamlit dashboard
 
-## Technology Stack
-- Pandas
-- Plotly
+## Tech Stack
 - Python
 - Streamlit
+- Pandas
 - NumPy
+- Plotly
 
-## How to run
-For working on this project,
-Use the following command to install the packages.
-$ pip install -r requirements.txt
-To launch the Streamlit app,
-$ streamlit run app.py
+## How to Run
+pip install -r requirements.txt
+streamlit run app.py
 
-## Disclaimer
-The focus of this project is to demonstrate the flow of analytics and viewing.
+## Notes
+This is a prototype focusing on analytics flow and visualization.
 
 ## Architecture
 See architecture.drawio.png for system design.
 
-## AI Usage
-ChatGPT was used for code structuring, debugging, and UI suggestions.
-All design decisions and final implementation were reviewed and customized.
+## ChatGPT Usage Transparency
+
+ChatGPT was used as a development assistant for:
+- Structuring the overall project workflow and architecture
+- Streamlit dashboard layout suggestions
+- Debugging Python and Streamlit issues
+- Clarifying analytics concepts (spread, z-score, rolling statistics)
+
+All implementation decisions, customization, and final code integration
+were reviewed and customized.
